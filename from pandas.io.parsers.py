@@ -11,7 +11,7 @@ from flask_ngrok import run_with_ngrok
 app = Flask(__name__)
 run_with_ngrok(app)
 
-openai.api_key = "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"
+# openai.api_key = "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"
 
 
 def Training(comment):

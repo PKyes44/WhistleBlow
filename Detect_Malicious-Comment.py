@@ -299,7 +299,7 @@ trainer.evaluate(eval_dataset=test_dataset)
 
 app = Flask(__name__)
 
-openai.api_key = "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"
+# openai.api_key = "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"
 
 
 def Training(comment):
